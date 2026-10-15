@@ -38,7 +38,7 @@ final class NAMMediationNativeAdView: UIView {
     private var nativeAd: GFPNativeAd?
     
     private let placementId: String
-    private let rootViewController: UIViewController?
+    private weak var rootViewController: UIViewController?
     
     // ReactNative 모드
     private var isReactNativeMode = false

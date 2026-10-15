@@ -23,7 +23,7 @@ final class NAMMediationBannerView: UIView {
     
     private var bannerView : GFPBannerView?
     
-    private var rootviewController: UIViewController?
+    private weak var rootviewController: UIViewController?
     
     private var bannerType: APSSPBannerSize
     

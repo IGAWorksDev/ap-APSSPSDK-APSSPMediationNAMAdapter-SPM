@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/IGAWorksDev/ap-APSSPSDK-SPM.git", from: "3.4.0"),
-        .package(url: "https://github.com/naver/nam-sdk-ios.git", exact: "8.11.6"),
+        .package(url: "https://github.com/naver/nam-sdk-ios.git", exact: "8.12.0"),
     ],
     targets: [
         .target(name: "APSSPMediationNAM",

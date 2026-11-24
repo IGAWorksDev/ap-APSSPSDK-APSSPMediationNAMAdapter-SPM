@@ -20,12 +20,36 @@
 
 ```swift
 .package(url: "https://github.com/IGAWorksDev/ap-APSSPSDK-APSSPMediationNAMAdapter-SPM.git",
-         exact: "8250100.0.0")
+         exact: "8270100.0.0")
 ```
 
 > `Other Linker Flags` 에 **`-ObjC`** 추가 필수. 미설정 시 어댑터가 런타임에 인식되지 않습니다.
 
 ---
+
+## 8270100.0.0
+
+GFPSDK `8.27.1` 대응
+어댑터 버전 `8.27.1.0`
+APSSPSDK `3.4.0` 이상
+
+2026-11-24
+
+## 8270000.0.0
+
+GFPSDK `8.27.0` 대응
+어댑터 버전 `8.27.0.0`
+APSSPSDK `3.4.0` 이상
+
+2026-11-24
+
+## 8260100.0.0
+
+GFPSDK `8.26.1` 대응
+어댑터 버전 `8.26.1.0`
+APSSPSDK `3.4.0` 이상
+
+2026-11-24
 
 ## 8250100.0.0
 
